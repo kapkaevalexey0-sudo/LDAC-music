@@ -1,10 +1,10 @@
-#High Quality Music Driver (HQMD)
+High Quality Music Driver (HQMD)
 Professional audio driver installer for high-resolution music playback over Bluetooth using LDAC technology.
 
-#📋 Overview
+📋 Overview
 HQMD is a Windows application that installs and manages the LDAC audio driver, enabling high-quality wireless audio transmission (up to 990 kbps / 96 kHz / 24-bit) on compatible Bluetooth devices.
 
-#✨ Features
+✨ Features
 One-click driver installation via PnPUtil
 
 Automatic driver file copying to Windows DriverStore
@@ -21,7 +21,7 @@ Multilingual support (Russian/English)
 
 Uninstall support - removes driver cleanly
 
-#🎵 Technical Specifications
+🎵 Technical Specifications
 Parameter	Value
 Sample Rate	96 kHz
 Bitrate	990 kbps
@@ -35,7 +35,7 @@ Available Modes
 
 📱 330 kbps — 48 kHz / 16-bit (Stable connection mode)
 
-#🚀 Installation
+🚀 Installation
 Prerequisites
 Windows 10/11 (64-bit)
 
@@ -54,7 +54,7 @@ Follow the installation wizard
 
 Launch HQMD and click "Install Driver"
 
-#🔧 Building from Source
+🔧 Building from Source
 1. Clone repository
 git clone https://github.com/yourusername/hqmd.git
 cd hqmd
@@ -78,7 +78,7 @@ HQMD Setup/
 │       ├── AltA2DP.inf         # LDAC driver
 │       └── ... (other driver files)
 └── version.txt                  # Version information
-#🎮 Usage
+🎮 Usage
 Launch HQMD (as administrator)
 
 Select INF file (default: Driver/ldac/AltA2DP.inf)
@@ -119,7 +119,7 @@ HQMD_Installer.exe --uninstall   # Remove driver
 │                                     │
 │  [Clear] [About] [Exit]             │
 └─────────────────────────────────────┘
-#🔄 Driver Installation Process
+🔄 Driver Installation Process
 Privilege check - Ensures administrator rights
 
 File verification - Validates INF file existence
@@ -132,7 +132,7 @@ Verification - Confirms driver presence in system
 
 Fallback methods - DevCon or rundll32 if needed
 
-#🧹 Uninstallation
+🧹 Uninstallation
 #Via Windows
 Open Settings → Apps → Installed apps
 
@@ -143,7 +143,7 @@ Click Uninstall
 #Via Command Line
 bash
 pnputil /delete-driver "C:\Program Files\High Quality Music Driver\Driver\ldac\AltA2DP.inf"
-#❗ Troubleshooting
+❗ Troubleshooting
 Issue	Solution
 "Access denied"	Run as administrator
 "INF not found"	Check file path or use Browse button
@@ -167,7 +167,7 @@ Basic PnPUtil installation
 
 Simple GUI interface
 
-#🤝 Contributing
+🤝 Contributing
 Fork the repository
 
 Create your feature branch (git checkout -b feature/AmazingFeature)
@@ -178,13 +178,13 @@ Push to branch (git push origin feature/AmazingFeature)
 
 Open a Pull Request
 
-#📄 License
+📄 License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-#👥 Authors
+👥 Authors
 Aviatrec Digital Company - Initial work
 
-#🙏 Acknowledgments
+🙏 Acknowledgments
 Sony for LDAC technology
 
 Qt for PyQt framework
